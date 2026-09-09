@@ -39,7 +39,7 @@ WEBHOOK_URL = os.environ["WEBHOOK_URL"].rstrip("/")
 PORT = int(os.environ.get("PORT", 8443))
 
 genai.configure(api_key=GEMINI_KEY)
-model = genai.GenerativeModel("gemini-2.5-flash")
+model = genai.GenerativeModel("gemini-3.6-flash")
 
 SYSTEM_PROMPT = (
     "Ты — опытный редактор в русскоязычной журналистике. Тебе присылают "
