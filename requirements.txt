@@ -1,2 +1,2 @@
-python-telegram-bot[webhooks]==21.6
+https://editor-bot-do2a.onrender.com
 google-generativeai==0.8.3
